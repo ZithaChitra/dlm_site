@@ -16,7 +16,7 @@ export default function Navbar() {
                 </ul>
                 
                 <ul id="nav-mobile" class="sidenav">
-                    <li><a href="#">Navbar Link</a></li>
+                    <li><Link to="/">Navbar Link</Link></li>
                 </ul>
                 <Link to="/" data-target="nav-mobile" className="sidenav-trigger"><i className="material-icons">menu</i></Link>
                 </div>
