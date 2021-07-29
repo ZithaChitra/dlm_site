@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './navbar/Navbar'
 import backImage from "./images/headerimg2.jpeg"
 import "./HeaderMain.css"
+import {Link} from "react-router-dom"
 
 
 // light-blue darken-1
@@ -19,7 +20,7 @@ function HeaderMain() {
                                 <h5 class="header col s12 light white-text">We can do it</h5>
                             </div>
                             <div class="row center">
-                                <a href="#" id="download-button" class="btn-large waves-effect waves-light light-blue darken-1">Learn more</a>
+                                <Link to="/about" id="download-button" className="btn-large waves-effect waves-light light-blue darken-1">Learn more</Link>
                             </div>
                             <br></br>
                         </div>
