@@ -9,7 +9,7 @@ function Error() {
             <div className="container">
                 <h3>Oops !</h3>
                 <p>This page does not exit <br></br>
-                    <Link to="*">Lets get you back home</Link>
+                    <Link to="/">Lets get you back home</Link>
                 </p>
             </div>
         </div>
