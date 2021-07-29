@@ -1,8 +1,10 @@
+import HeaderMain from "./components/header/HeaderMain";
+
 
 function App() {
   return (
     <div className="App">
-      
+      <HeaderMain/>
     </div>
   );
 }
