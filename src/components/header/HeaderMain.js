@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from './navbar/Navbar'
-import backImage from "./images/headerimg2.jpeg"
 import "./HeaderMain.css"
 import {Link} from "react-router-dom"
 
